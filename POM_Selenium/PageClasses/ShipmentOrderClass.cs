@@ -32,7 +32,7 @@ namespace POM_Selenium
         {
             var jsonData = JObject.Parse(File.ReadAllText(@"C:\Users\Muhammad Maaz\source\repos\POM_Selenium\POM_Selenium\Data.json"));
             
-            var firstNameMissingError = jsonData["firstNameMissingError"].ToString();
+            var firstNameMissingError = jsonData["firstNameMissingErro"].ToString();
             
             chromeDriver.FindElement(By.Id(LocatorClass.ContinueButton)).Click();
             var actualFirstNameMissingError = chromeDriver.FindElement(By.XPath(LocatorClass.FirstNameMissingError)).Text;

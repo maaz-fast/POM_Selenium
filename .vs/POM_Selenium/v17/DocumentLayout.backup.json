@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\pom_selenium\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|solutionrelative:pom_selenium\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\pom_selenium\\locatorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|solutionrelative:pom_selenium\\locatorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\pom_selenium\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|solutionrelative:pom_selenium\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|c:\\users\\muhammad maaz\\source\\repos\\pom_selenium\\pom_selenium\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|solutionrelative:pom_selenium\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\pom_selenium\\testclass\\swaglabtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|solutionrelative:pom_selenium\\testclass\\swaglabtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\pom_selenium\\pageclasses\\shipmentorderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|solutionrelative:pom_selenium\\pageclasses\\shipmentorderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\pom_selenium\\pageclasses\\productclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDB1D2D-295F-4AF3-B64E-15734B7F1019}|POM_Selenium\\POM_Selenium.csproj|solutionrelative:pom_selenium\\pageclasses\\productclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\.gitignore",
+              "RelativeDocumentMoniker": "POM_Selenium\\.gitignore",
+              "ToolTip": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\.gitignore",
+              "RelativeToolTip": "POM_Selenium\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-21T12:54:18.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseClass.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\BaseClass.cs",
+              "RelativeDocumentMoniker": "POM_Selenium\\BaseClass.cs",
+              "ToolTip": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\BaseClass.cs",
+              "RelativeToolTip": "POM_Selenium\\BaseClass.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:27:01.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocatorClass.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\LocatorClass.cs",
+              "RelativeDocumentMoniker": "POM_Selenium\\LocatorClass.cs",
+              "ToolTip": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\LocatorClass.cs",
+              "RelativeToolTip": "POM_Selenium\\LocatorClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:23:47.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Data.json",
+              "DocumentMoniker": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\Data.json",
+              "RelativeDocumentMoniker": "POM_Selenium\\Data.json",
+              "ToolTip": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\Data.json",
+              "RelativeToolTip": "POM_Selenium\\Data.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T10:22:43.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShipmentOrderClass.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\PageClasses\\ShipmentOrderClass.cs",
+              "RelativeDocumentMoniker": "POM_Selenium\\PageClasses\\ShipmentOrderClass.cs",
+              "ToolTip": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\PageClasses\\ShipmentOrderClass.cs",
+              "RelativeToolTip": "POM_Selenium\\PageClasses\\ShipmentOrderClass.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:19:07.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductClass.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\PageClasses\\ProductClass.cs",
+              "RelativeDocumentMoniker": "POM_Selenium\\PageClasses\\ProductClass.cs",
+              "ToolTip": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\PageClasses\\ProductClass.cs",
+              "RelativeToolTip": "POM_Selenium\\PageClasses\\ProductClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:18:18.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SwagLabTests.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\TestClass\\SwagLabTests.cs",
+              "RelativeDocumentMoniker": "POM_Selenium\\TestClass\\SwagLabTests.cs",
+              "ToolTip": "C:\\Users\\Muhammad Maaz\\source\\repos\\POM_Selenium\\POM_Selenium\\TestClass\\SwagLabTests.cs",
+              "RelativeToolTip": "POM_Selenium\\TestClass\\SwagLabTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:10:55.316Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

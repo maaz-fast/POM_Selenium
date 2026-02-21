@@ -1,46 +1,46 @@
-﻿# XML parhein aur data nikaalein
-$xml = [xml](Get-Content results.xml)
+﻿$xml = [xml](Get-Content results.xml)
 $res = $xml.GetElementsByTagName('UnitTestResult')
 $total = $res.Count
 $pass = ($res | where {$_.outcome -eq 'Passed'}).Count
 $fail = $total - $pass
 
-# Colorful HTML Design
 $html = @"
 <html>
-<head>
-<style>
-    body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f0f2f5; padding: 40px; }
-    .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); max-width: 900px; margin: auto; }
-    h1 { text-align: center; color: #1a73e8; margin-bottom: 30px; }
-    .stats { display: flex; justify-content: space-between; margin-bottom: 30px; }
-    .box { padding: 20px; border-radius: 12px; color: white; width: 30%; text-align: center; font-size: 1.1em; font-weight: bold; }
-    .blue { background: #1a73e8; }
-    .green { background: #34a853; }
-    .red { background: #ea4335; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-    th { background: #f8f9fa; padding: 15px; text-align: left; color: #5f6368; border-bottom: 2px solid #eee; }
-    td { padding: 15px; border-bottom: 1px solid #eee; color: #3c4043; }
-    .Passed { color: #34a853; font-weight: bold; }
-    .Failed { color: #ea4335; font-weight: bold; }
-</style>
-</head>
-<body>
-<div class='card'>
-    <h1>Selenium Test Execution Report</h1>
-    <div class='stats'>
-        <div class='box blue'>Total Tests<br><span style='font-size:2em'>$total</span></div>
-        <div class='box green'>Passed<br><span style='font-size:2em'>$pass</span></div>
-        <div class='box red'>Failed<br><span style='font-size:2em'>$fail</span></div>
-    </div>
-    <table>
-        <tr><th>Test Case Name</th><th>Result</th><th>Duration</th></tr>
+<body style='font-family: Arial, sans-serif; background-color: #f4f7f6; padding: 30px;'>
+    <div style='background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); max-width: 800px; margin: auto;'>
+        <h1 style='text-align: center; color: #2c3e50;'>🚀 Automation Test Report</h1>
+        
+        <div style='display: flex; justify-content: space-around; margin: 20px 0;'>
+            <div style='background: #3498db; color: white; padding: 20px; border-radius: 10px; width: 28%; text-align: center;'>
+                <span style='font-size: 0.9em;'>Total</span><br><span style='font-size: 1.8em; font-weight: bold;'>$total</span>
+            </div>
+            <div style='background: #2ecc71; color: white; padding: 20px; border-radius: 10px; width: 28%; text-align: center;'>
+                <span style='font-size: 0.9em;'>Passed</span><br><span style='font-size: 1.8em; font-weight: bold;'>$pass</span>
+            </div>
+            <div style='background: #e74c3c; color: white; padding: 20px; border-radius: 10px; width: 28%; text-align: center;'>
+                <span style='font-size: 0.9em;'>Failed</span><br><span style='font-size: 1.8em; font-weight: bold;'>$fail</span>
+            </div>
+        </div>
+
+        <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
+            <thead>
+                <tr style='background-color: #ecf0f1;'>
+                    <th style='padding: 12px; text-align: left; border-bottom: 2px solid #bdc3c7;'>Test Case</th>
+                    <th style='padding: 12px; text-align: left; border-bottom: 2px solid #bdc3c7;'>Status</th>
+                    <th style='padding: 12px; text-align: left; border-bottom: 2px solid #bdc3c7;'>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
 "@
 
 foreach($r in $res) {
-    $status = $r.outcome
-    $html += "<tr><td>$($r.testName)</td><td class='$status'>$status</td><td>$($r.duration)</td></tr>"
+    $color = if($r.outcome -eq 'Passed') { '#27ae60' } else { '#c0392b' }
+    $html += "<tr>
+                <td style='padding: 12px; border-bottom: 1px solid #eee;'>$($r.testName)</td>
+                <td style='padding: 12px; border-bottom: 1px solid #eee; color: $color; font-weight: bold;'>$($r.outcome)</td>
+                <td style='padding: 12px; border-bottom: 1px solid #eee;'>$($r.duration)</td>
+              </tr>"
 }
 
-$html += "</table></div></body></html>"
+$html += "</tbody></table></div></body></html>"
 $html | Out-File -FilePath results.html -Encoding utf8
